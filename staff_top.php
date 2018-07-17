@@ -16,20 +16,34 @@ else
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="UTF-8">
     <title>ショップ管理トップ</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <!-- Custom styles for this template -->
+    <link href="../bootstrap/css/signin.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
 <body>
-ショップ管理トップメニュー<br>
-<br>
-<a href="../staff/staff_list.php"> スタッフ管理 </a><br>
-<br>
-<a href="../product/pro_list.php"> 商品管理 </a><br>
-<br>
-<a href="../order/order_download.php"> 注文ダウンロード </a><br>
-<br>
-<a href="staff_logout.php"> ログアウト </a><br>
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>ショップ管理トップメニュー</h1>
+<!--         <p class="lead">
+            ショップ管理トップメニュー<br> -->
+        <br>
+        <a href="../staff/staff_list.php"> スタッフ管理 </a><br>
+        <br>
+        <a href="../product/pro_list.php"> 商品管理 </a><br>
+        <br>
+        <a href="../order/order_download.php"> 注文ダウンロード </a><br>
+        <br>
+        <a href="staff_logout.php"> ログアウト </a><br>
+        </p>
+      </div>
+
+    </div><!-- /.container -->
 </body>
 </html>
